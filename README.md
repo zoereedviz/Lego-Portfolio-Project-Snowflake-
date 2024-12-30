@@ -12,12 +12,25 @@
 ### CREATE
 Creating schema and tables.
 
-
+```
+CREATE SCHEMA ZOE_LEGO_SCHEMA;
+CREATE TABLE colors (
+  id bigint,
+  name text,
+  rgb text,
+  is_trans text
+);
+```
+this does...
 
 ## INSERT INTO
 Inserting data into tables from another table in Snowflake.
 
-
+```
+INSERT INTO colors
+SELECT * FROM TIL_PORTFOLIO_PROJECTS.STAGING.LEGO_COLORS;
+```
+this does...
 
 ## ALTER, FOREIGN KEY, PRIMARY KEY and REFERENCES
 Using contraints to set primary and foreign keys to create relationships between tables.
