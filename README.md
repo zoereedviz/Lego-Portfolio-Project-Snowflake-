@@ -22,10 +22,10 @@ Inserting data into tables from another table in Snowflake.
 ## ALTER, FOREIGN KEY, PRIMARY KEY and REFERENCES
 Using contraints to set primary and foreign keys to create relationships between tables.
 
-'''
+```
 ALTER TABLE colors ADD PRIMARY KEY (id);
 ALTER TABLE inventory_parts ADD FOREIGN KEY (color_id) REFERENCES colors(id);
-'''
+```
 
 These queries set the x as the primary key in x, and relates it to x in x table.
 
