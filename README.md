@@ -21,7 +21,8 @@ CREATE TABLE colors (
   is_trans text
 );
 ```
-this does...
+These queries create a new schema called ZOE_LEGO_SCHEMA and creates the table colors with four fields.
+
 
 ## INSERT INTO
 Inserting data into tables from another table in Snowflake.
@@ -30,7 +31,8 @@ Inserting data into tables from another table in Snowflake.
 INSERT INTO colors
 SELECT * FROM TIL_PORTFOLIO_PROJECTS.STAGING.LEGO_COLORS;
 ```
-this does...
+This query populates the table colors with all the data from the table LEGO_COLORS.
+
 
 ## ALTER, FOREIGN KEY, PRIMARY KEY and REFERENCES
 Using contraints to set primary and foreign keys to create relationships between tables.
