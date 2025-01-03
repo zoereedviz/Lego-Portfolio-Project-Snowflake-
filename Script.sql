@@ -1,7 +1,7 @@
 -- PART 1: SCHEMA SETUP
 
 -- Create a schema called ZOE_LEGO_SCHEMA:
-CREATE SCHEMA ZOE_LEGO_SCHEMA;
+CREATE OR REPLACE SCHEMA ZOE_LEGO_SCHEMA;
 
 -- Create the tables and define the columns each contains:
 CREATE OR REPLACE TABLE colors (
@@ -153,3 +153,5 @@ CREATE OR REPLACE VIEW lego_sets_analysis AS (
         t.name AS theme_name    
     FROM set_info_cte
     INNER JOIN themes AS t ON t.id = set_info_cte.theme_id);
+
+SELECT * FROM lego_sets_analysis;
