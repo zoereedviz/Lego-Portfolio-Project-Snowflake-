@@ -45,9 +45,6 @@ ALTER TABLE inventory_parts ADD FOREIGN KEY (color_id) REFERENCES colors(id);
 These queries set the field id as the primary key in colors, and relates colors to inventory_parts via the foreign key color_id.
 
 ## ER Diagram
-ER Diagram from DBeaver to visualise the model built in the project so far.
+ER Diagram from DBeaver to visualise the model built in this project.
 
 ![ZOE_LEGO_SCHEMA ER Diagram](https://github.com/user-attachments/assets/f31be9a6-ff8f-4a30-b737-d3d29526fbaa)
-
-An ER Diagram can be created by setting up a database connection in DBeaver to the Snowflake Database the project is in and locating the relevant schema. An ER Diagram is built automatically.
-
