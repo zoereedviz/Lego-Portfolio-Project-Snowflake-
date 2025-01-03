@@ -42,7 +42,7 @@ ALTER TABLE colors ADD PRIMARY KEY (id);
 ALTER TABLE inventory_parts ADD FOREIGN KEY (color_id) REFERENCES colors(id);
 ```
 
-These queries set the x as the primary key in x, and relates it to x in x table.
+These queries set the field id as the primary key in colors, and relates colors to inventory_parts via the foreign key color_id.
 
 ## ER Diagram
 ER Diagram from DBeaver to visualise the model built in the project so far.
