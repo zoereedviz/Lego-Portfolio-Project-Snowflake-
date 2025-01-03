@@ -15,10 +15,10 @@ Creating schema and tables.
 ```
 CREATE SCHEMA ZOE_LEGO_SCHEMA;
 CREATE TABLE colors (
-  id bigint,
-  name text,
-  rgb text,
-  is_trans text
+  id smallint,
+  name varchar(50),
+  rgb varchar(6),
+  is_trans varchar(1)
 );
 ```
 These queries create a new schema called ZOE_LEGO_SCHEMA and creates the table colors with four fields.
