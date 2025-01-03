@@ -24,7 +24,7 @@ CREATE TABLE colors (
 These queries create a new schema called ZOE_LEGO_SCHEMA and creates the table colors with four fields.
 
 
-## INSERT INTO
+### INSERT INTO
 Inserting data into tables from another table in Snowflake.
 
 ```
@@ -34,7 +34,7 @@ SELECT * FROM DATABASE_NAME.STAGING.LEGO_COLORS;
 This query populates the table colors with all the data from the table LEGO_COLORS.
 
 
-## ALTER, FOREIGN KEY, PRIMARY KEY and REFERENCES
+### ALTER, FOREIGN KEY, PRIMARY KEY and REFERENCES
 Using contraints to set primary and foreign keys to create relationships between tables.
 
 ```
