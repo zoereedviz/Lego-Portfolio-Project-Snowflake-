@@ -5,7 +5,7 @@
 ## Project Overview
 
 - Create a schema in a Snowflake database, create tables and insert data into them. Set up relationships and visualise the model with an ER diagram.
-- Analyse the dataset created to derive insights about LEGO.
+- Analyse the dataset created to derive insights about various LEGO sets.
 
 ## Commands and Constraints Used in this Project
 
