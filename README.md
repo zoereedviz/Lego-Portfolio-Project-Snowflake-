@@ -29,7 +29,7 @@ Inserting data into tables from another table in Snowflake.
 
 ```
 INSERT INTO colors
-SELECT * FROM TIL_PORTFOLIO_PROJECTS.STAGING.LEGO_COLORS;
+SELECT * DATABASE_NAME.STAGING.LEGO_COLORS;
 ```
 This query populates the table colors with all the data from the table LEGO_COLORS.
 
